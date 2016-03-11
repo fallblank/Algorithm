@@ -20,6 +20,9 @@ public class SortCompare {
             case "MergeUp":
                 sort = new MergeSortUp(array);
                 break;
+            case "Quick":
+                sort = new QuickSort(array);
+                break;
             default:
                 throw new Exception("算法名称错误");
         }
